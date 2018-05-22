@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the tinylab</title>
+    <link>https://blog.tinylab.info/</link>
+    <description>Recent content on the tinylab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 May 2018 23:40:36 +0800</lastBuildDate>
+    
+        <atom:link href="https://blog.tinylab.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello again ... again</title>
+      <link>https://blog.tinylab.info/posts/hello-again-again/</link>
+      <pubDate>Mon, 21 May 2018 23:40:36 +0800</pubDate>
+      
+      <guid>https://blog.tinylab.info/posts/hello-again-again/</guid>
+      <description>
+
+&lt;h1 id=&#34;usual-starting-template-to-see-how-code-looks&#34;&gt;usual starting template to see how code looks&lt;/h1&gt;
+
+&lt;h2 id=&#34;header-2&#34;&gt;header 2&lt;/h2&gt;
+
+&lt;h2 id=&#34;header-3&#34;&gt;header 3&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
+for i in {1..10}; do echo &amp;quot;$i&amp;quot;; done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What about &lt;code&gt;inline&lt;/code&gt; code?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unordered list&lt;/li&gt;
+&lt;li&gt;Thing 2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello again</title>
+      <link>https://blog.tinylab.info/posts/hello-again/</link>
+      <pubDate>Mon, 21 May 2018 23:30:36 +0800</pubDate>
+      
+      <guid>https://blog.tinylab.info/posts/hello-again/</guid>
+      <description>
+
+&lt;h1 id=&#34;usual-starting-template-to-see-how-code-looks&#34;&gt;usual starting template to see how code looks&lt;/h1&gt;
+
+&lt;h2 id=&#34;header-2&#34;&gt;header 2&lt;/h2&gt;
+
+&lt;h2 id=&#34;header-3&#34;&gt;header 3&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
+for i in {1..10}; do echo &amp;quot;$i&amp;quot;; done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What about &lt;code&gt;inline&lt;/code&gt; code?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unordered list&lt;/li&gt;
+&lt;li&gt;Thing 2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing syntax highlighting</title>
+      <link>https://blog.tinylab.info/posts/hello/</link>
+      <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
+      
+      <guid>https://blog.tinylab.info/posts/hello/</guid>
+      <description>
+
+&lt;h1 id=&#34;usual-starting-template-to-see-how-code-looks&#34;&gt;usual starting template to see how code looks&lt;/h1&gt;
+
+&lt;h2 id=&#34;header-2&#34;&gt;header 2&lt;/h2&gt;
+
+&lt;h2 id=&#34;header-3&#34;&gt;header 3&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;
+for i in {1..10}; do echo &amp;quot;$i&amp;quot;; done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What about &lt;code&gt;inline&lt;/code&gt; code?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unordered list&lt;/li&gt;
+&lt;li&gt;Thing 2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
