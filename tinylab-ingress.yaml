@@ -1,0 +1,17 @@
+ apiVersion: extensions/v1beta1
+ kind: Ingress
+ metadata:
+   name: tinylab-ingress
+ spec:
+   tls:
+   - hosts:
+     - blog.tinylab.info
+     secretName: blogtinylab
+   rules:
+   - host: blog.tinylab.info
+     http:
+       paths:
+       - path: /
+         backend:
+           serviceName: tinylab-service
+           servicePort: 80

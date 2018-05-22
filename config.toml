@@ -1,0 +1,10 @@
+baseURL = "https://blog.tinylab.info"
+languageCode = "en-us"
+title = "the tinylab"
+
+theme = "one"
+#googleAnalytics = "UA-123-45"
+
+[params]
+    navigation = ["archives.md", "about.md"]
+

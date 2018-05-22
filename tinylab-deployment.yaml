@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tinylab-deployment
+  labels:
+    app: tinylab
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tinylab
+  template:
+    metadata:
+      labels:
+        app: tinylab
+    spec:
+      containers:
+      - name: tinylab-nginx
+        image: registry.ng.bluemix.net/rtiffany/blogtinylab:1
+        ports:
+        - containerPort: 80
