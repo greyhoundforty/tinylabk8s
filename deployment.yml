@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tinylab-deployment
+  labels:
+    app: tinylab
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tinylab
+  template:
+    metadata:
+      labels:
+        app: tinylab
+    spec:
+      containers:
+      - name: tinylab-nginx
+        image: registry.ng.bluemix.net/rtiffany/blogtinylab:1
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tinylab-service
+spec:
+  selector:
+    app: tinylab
+  ports:
+   - protocol: TCP
+     port: 80 
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: tinylab-ingress
+spec:
+  tls:
+  - hosts:
+    - blog.tinylab.info
+    secretName: blogtinylab
+  rules:
+  - host: blog.tinylab.info
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: tinylab-service
+          servicePort: 80
